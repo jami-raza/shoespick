@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  
+}
+.Header {
+  align-items: center;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 0 0 25px;
+  width: fit-content;
+
+
+  
+}
+.productContainer > .link {
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px #463636;
+  margin-top: 10px;
+  
+  
+  
+
+}
+.img{
+  height: 400;
+  width: auto;
+}
+
+
+.Logo {
+  color:royalblue;
+
+}
+
+
+
+
