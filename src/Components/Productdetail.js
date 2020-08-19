@@ -45,7 +45,7 @@ export default function SpacingGrid() {
     } 
 
   return (
-    <Grid container className={classes.root} spacing={2}>
+    <Grid container className={classes.root} spacing={5}>
       <Grid item xs={12}>
         <Grid container spacing={spacing}>
           {[0].map((value) => (

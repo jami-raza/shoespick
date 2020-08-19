@@ -9,7 +9,7 @@ export default function Products(){
                const shoe = Shoes[keyName];
                 
                 return(
-                    <Paper className="link" elevation={5}>
+                    <Paper className="link" elevation={3}>
                     <Link key={keyName} 
                     to={`/products/${keyName}`}>
                         <h3 className="title">{shoe.name}</h3>
