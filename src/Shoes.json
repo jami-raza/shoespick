@@ -4,13 +4,16 @@
       "img":
         "https://secure-images.nike.com/is/image/DotCom/CT8532_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
         "desc":
-        "The Air Jordan 3 remains an all-time favourite silhouette worldwide. While the design has hit shelves in an astonishing range of materials and colours, some iterations are tougher to track down than others. Such is the case for most players-exclusive (PE) releases, which are bestowed upon athletes at a handful of brand-sponsored universities. Nodding to a special edition created for athletes at MJ's alma mater, this release comes dressed in white with accents of Valour Blue. Elephant print and a stitched tag on the insole pay homage to MJ for paving the way."
-        
+        "The Air Jordan 3 remains an all-time favourite silhouette worldwide. While the design has hit shelves in an astonishing range of materials and colours, some iterations are tougher to track down than others. Such is the case for most players-exclusive (PE) releases, which are bestowed upon athletes at a handful of brand-sponsored universities. Nodding to a special edition created for athletes at MJ's alma mater, this release comes dressed in white with accents of Valour Blue. Elephant print and a stitched tag on the insole pay homage to MJ for paving the way.",
+        "reviews":4.6,
+        "price": 1200
     },
     "jordan-mars-270-london": {
       "name": "JORDAN MARS 270 LONDON",
       "img":
         "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+        "reviews":4.0,
+        "price": 500,
         "desc":
         "Imagine a heavy dose of Jordan heritage, a huge Air Max unit and a lightweight, springy foam, and you're somewhere close. The Jordan Mars 270 London boasts a mesh grid inspired by MJ's first global release and a soft leather overlay for added durability—while a special LDN hangtag finishes things off in defiant style."
     },
@@ -19,27 +22,89 @@
       "img":
         "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
         "desc":
-        "The Air Jordan 1 High Zoom 'Racer Blue' updates the iconic silhouette with full-length Zoom Air cushioning and transparent detailing. The latter takes the form of clear overlays on the sneaker's heel panel and collar flaps, embellished with a Jordan Wings logo on the lateral side."
+        "The Air Jordan 1 High Zoom 'Racer Blue' updates the iconic silhouette with full-length Zoom Air cushioning and transparent detailing. The latter takes the form of clear overlays on the sneaker's heel panel and collar flaps, embellished with a Jordan Wings logo on the lateral side.",
+        "reviews":3.6,
+        "price": 489
     },
     "air-jordan-3-valor-blue1": {
       "name": "VALOUR BLUE",
       "img":
         "https://secure-images.nike.com/is/image/DotCom/CT8532_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
         "desc":
-        "The Air Jordan 3 remains an all-time favourite silhouette worldwide. While the design has hit shelves in an astonishing range of materials and colours, some iterations are tougher to track down than others. Such is the case for most players-exclusive (PE) releases, which are bestowed upon athletes at a handful of brand-sponsored universities. Nodding to a special edition created for athletes at MJ's alma mater, this release comes dressed in white with accents of Valour Blue. Elephant print and a stitched tag on the insole pay homage to MJ for paving the way."
+        "The Air Jordan 3 remains an all-time favourite silhouette worldwide. While the design has hit shelves in an astonishing range of materials and colours, some iterations are tougher to track down than others. Such is the case for most players-exclusive (PE) releases, which are bestowed upon athletes at a handful of brand-sponsored universities. Nodding to a special edition created for athletes at MJ's alma mater, this release comes dressed in white with accents of Valour Blue. Elephant print and a stitched tag on the insole pay homage to MJ for paving the way.",
+        "reviews":2.4,
+        "price":350
     },
     "jordan-mars-270-london2": {
       "name": "JORDAN MARS 270 LONDON",
       "img":
         "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1",
         "desc":
-        "Imagine a heavy dose of Jordan heritage, a huge Air Max unit and a lightweight, springy foam, and you're somewhere close. The Jordan Mars 270 London boasts a mesh grid inspired by MJ's first global release and a soft leather overlay for added durability—while a special LDN hangtag finishes things off in defiant style."
+        "Imagine a heavy dose of Jordan heritage, a huge Air Max unit and a lightweight, springy foam, and you're somewhere close. The Jordan Mars 270 London boasts a mesh grid inspired by MJ's first global release and a soft leather overlay for added durability—while a special LDN hangtag finishes things off in defiant style.",
+        "reviews":5.0,
+        "price": 1200
     },
     "air-jordan-1-zoom-racer-blue3": {
       "name": "RACER BLUE",
       "img":
         "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
         "desc":
-        "One of the many releases of the “Fearless Ones” collection, the Air Jordan 1 High Zoom proffered cushioning tech that had never stepped foot on the silhouette prior. Along with its both iridescent and reflective uppers, the pair set itself apart amongst the vast range of standouts, and Jordan Brand was very obviously aware of this as they quickly confirmed a sequel for 2020. Now, only moments out from this very release, the pair has just hit official images after many a tease months ago, showcasing the new, more vibrant approach of White and the titular “Racer Blue.”"
+        "One of the many releases of the “Fearless Ones” collection, the Air Jordan 1 High Zoom proffered cushioning tech that had never stepped foot on the silhouette prior. Along with its both iridescent and reflective uppers, the pair set itself apart amongst the vast range of standouts, and Jordan Brand was very obviously aware of this as they quickly confirmed a sequel for 2020. Now, only moments out from this very release, the pair has just hit official images after many a tease months ago, showcasing the new, more vibrant approach of White and the titular “Racer Blue.”",
+        "reviews":4.3,
+        "price": 899
+    },
+    "air-jordan-3-valor-blue5": {
+      "name": "VALOUR BLUE",
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CT8532_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+        "desc":
+        "The Air Jordan 3 remains an all-time favourite silhouette worldwide. While the design has hit shelves in an astonishing range of materials and colours, some iterations are tougher to track down than others. Such is the case for most players-exclusive (PE) releases, which are bestowed upon athletes at a handful of brand-sponsored universities. Nodding to a special edition created for athletes at MJ's alma mater, this release comes dressed in white with accents of Valour Blue. Elephant print and a stitched tag on the insole pay homage to MJ for paving the way.",
+        "reviews":1.6,
+        "price": 679
+    },
+    "jordan-mars-270-london9": {
+      "name": "JORDAN MARS 270 LONDON",
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+        "reviews":3.5,
+        "price": 299,
+        "desc":
+        "Imagine a heavy dose of Jordan heritage, a huge Air Max unit and a lightweight, springy foam, and you're somewhere close. The Jordan Mars 270 London boasts a mesh grid inspired by MJ's first global release and a soft leather overlay for added durability—while a special LDN hangtag finishes things off in defiant style."
+    },
+    "air-jordan-1-zoom-racer-blue7": {
+      "name": "RACER BLUE",
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+        "desc":
+        "The Air Jordan 1 High Zoom 'Racer Blue' updates the iconic silhouette with full-length Zoom Air cushioning and transparent detailing. The latter takes the form of clear overlays on the sneaker's heel panel and collar flaps, embellished with a Jordan Wings logo on the lateral side.",
+        "reviews":2.9,
+        "price": 1549
+    },
+    "air-jordan-3-valor-blue2": {
+      "name": "VALOUR BLUE",
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CT8532_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+        "desc":
+        "The Air Jordan 3 remains an all-time favourite silhouette worldwide. While the design has hit shelves in an astonishing range of materials and colours, some iterations are tougher to track down than others. Such is the case for most players-exclusive (PE) releases, which are bestowed upon athletes at a handful of brand-sponsored universities. Nodding to a special edition created for athletes at MJ's alma mater, this release comes dressed in white with accents of Valour Blue. Elephant print and a stitched tag on the insole pay homage to MJ for paving the way.",
+        "reviews":4.4,
+        "price":350
+    },
+    "jordan-mars-270-london3": {
+      "name": "JORDAN MARS 270 LONDON",
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+        "desc":
+        "Imagine a heavy dose of Jordan heritage, a huge Air Max unit and a lightweight, springy foam, and you're somewhere close. The Jordan Mars 270 London boasts a mesh grid inspired by MJ's first global release and a soft leather overlay for added durability—while a special LDN hangtag finishes things off in defiant style.",
+        "reviews":3.3,
+        "price": 599
+    },
+    "air-jordan-1-zoom-racer-blue4": {
+      "name": "RACER BLUE",
+      "img":
+        "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+        "desc":
+        "One of the many releases of the “Fearless Ones” collection, the Air Jordan 1 High Zoom proffered cushioning tech that had never stepped foot on the silhouette prior. Along with its both iridescent and reflective uppers, the pair set itself apart amongst the vast range of standouts, and Jordan Brand was very obviously aware of this as they quickly confirmed a sequel for 2020. Now, only moments out from this very release, the pair has just hit official images after many a tease months ago, showcasing the new, more vibrant approach of White and the titular “Racer Blue.”",
+        "reviews":4.3,
+        "price": 1.9
     }
   }

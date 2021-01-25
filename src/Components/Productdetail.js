@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { useParams } from "react-router-dom";
 import Shoes from './../Shoes.json';
 import { makeStyles } from '@material-ui/core/styles';
@@ -34,12 +34,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function SpacingGrid() {
-  const [spacing] = React.useState(2);
+  
   const classes = useStyles();
-
-
+  const [products] = useState(Shoes)
+  console.log(products)
   const {id} = useParams();
-    const shoe = Shoes[id];
+    const shoe = products[id];
     if(!shoe){ 
     return <h2>Product Not Found</h2>
     } 
@@ -47,9 +47,9 @@ export default function SpacingGrid() {
   return (
     <Grid container className={classes.root} spacing={5}>
       <Grid item xs={12}>
-        <Grid container spacing={spacing}>
+        <Grid container >
           {[0].map((value) => (
-            <Grid key={value} item>
+            <Grid key={value} item xs={12} sm={12} md={4} lg={3} xl={3}>
             <Paper justify="right" className={classes.paper}>
             <h3>{shoe.name}</h3>
             <img className={classes.img} src={shoe.img} alt={shoe.name} />
