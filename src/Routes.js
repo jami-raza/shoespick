@@ -6,6 +6,9 @@ import Navbar from './Components/Navbar';
 import Products from './Components/Products';
 import About from './Components/About';
 import Productindex from './Components/Productindex';
+import Product from './Components/Product';
+import Cart from './Components/cart'
+
 import Notfound from './Components/Notfound';
 function Asrouter(){
     return(
@@ -15,6 +18,7 @@ function Asrouter(){
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="About" element={<About/>}/>
+                    <Route path="cart" element={<Cart/>}/>
                     <Route path="Products" element={<Products/>}>
                         <Route path="/" element={<Productindex/>}/>                    
                         <Route path="/:id" element={<Productdetail/>}/>

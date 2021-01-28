@@ -55,7 +55,9 @@ export default function Navbar() {
         </div>
         <div style={{display:'flex',padding:'30px'}}>
           <div style={{marginRight:"15px"}}>
+          <Link className={classes.menuButton}to ="/cart">
           <ShoppingCartIcon/>
+          </Link>
           </div>
           <div >
           Login<span style={{marginTop:'20px'}}><LockOpenIcon /></span>

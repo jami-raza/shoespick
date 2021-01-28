@@ -1,6 +1,6 @@
-import React,{useState, useEffect} from 'react';
+import React,{useContext,useState} from 'react';
 import { Link } from "react-router-dom";
-import Shoes from './../Shoes.json';
+import {Shoes} from '../Shoes';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
@@ -12,6 +12,12 @@ import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 import Reviews from '../Components/review';
+import {ProductContext} from '../Context/ProductContext'
+import {cartContext} from '../Context/CartContext'
+import {useNavigate} from 'react-router-dom';
+
+
+
 const useStyles = makeStyles({
     root: {
       maxWidth: 345,
@@ -40,42 +46,81 @@ const useStyles = makeStyles({
 export default function Products(){
     
     const classes = useStyles()
+    
+    const {dispatch,qty} = useContext(cartContext);
+    const [quantity,setQty] = useState(1)
+    const {products} = useContext(ProductContext)
+    console.log(products)
 
-    console.log(Shoes)
-    
-    
-    
+    const shoes = Object.keys(products)
+    console.log(shoes)
+
+    const navigate = useNavigate()
+
+
     return (
         
-        <Grid container className={classes.container}>
-           {Object.keys(Shoes).map(keyName => {
-               const shoe = Shoes[keyName]
+        <Grid container className={classes.container} direction="row" justify="space-between">
+           
+              
+                {Object.keys(products).map(KeyName => {
+                    const shoe = products[KeyName]
+                    const addToCartHandler = () => {
+                        dispatch({
+                            type:"Add_To_Cart",
+                            id:shoe.id,
+                            product:shoe,
+                            
+                        })
+                        
+                        
+                        
+                    }
                 
-               return(
-
-                <Grid item xs={12} sm={12} md={4} lg={3} xl={3}>
-                    <Link key={keyName} 
+                    const ShopNowHandler = () => {
+                        dispatch({
+                            type:"Add_To_Cart",
+                            id:shoe.id,
+                            product:shoe
+                        });
+                        navigate('/cart') 
+                    }
+                    
+                    return (
+                        <Card key={KeyName}>
+                    <Link
+                    key={KeyName}
                     className={classes.link}
-                to={`/products/${keyName}`}>
-                    <Card className={classes.card}>
+                to={`/products/${KeyName}`}>
                     <img src={shoe.img}alt={shoe.name} height={300} />
                     <h3 className="title">{shoe.name}</h3>
                     <div style={{display:'flex',justifyContent:'space-between'}}>
-                    <h4 style={{display:'flex',textAlign:'center',color:"grey"}}>price :<span ><AttachMoneyIcon/></span> {shoe.price}</h4>
+                    <h4 style={{fontSize:'24px',color:'#800000'}}>{shoe.price}<span><AttachMoneyIcon/> </span></h4>
                     <div style={{marginTop:'20px'}}><Reviews value={shoe.reviews}/></div>
                     </div>
+                    </Link>
+                    
                     <ButtonGroup variant="text" style={{padding:'10px'}}>
-                    <Button color="primary" className={classes.button}>Add to Cart <AddShoppingCartIcon/></Button>
-                    <Button color="secondary" className={classes.button}>Shop now <ShoppingBasketIcon/></Button>
+                    <Button color="primary" className={classes.button} onClick={addToCartHandler}>Add to Cart <AddShoppingCartIcon/></Button>
+                    <Button color="secondary" className={classes.button} onClick={ShopNowHandler}>Shop now <ShoppingBasketIcon/></Button>
                     </ButtonGroup>
                     </Card>
-                </Link>
                 
-                </Grid>
-               ) 
+                    )
+                })}
+                
+                
 
-           })}
+                
                
+
+               
+                    
+                    
+                
+               
+                
+            
             </Grid>
     );
 }
