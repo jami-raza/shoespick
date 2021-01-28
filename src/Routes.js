@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar';
 import Products from './Components/Products';
 import About from './Components/About';
 import Productindex from './Components/Productindex';
-import Product from './Components/Product';
+import Checkout from './Components/Checkout';
 import Cart from './Components/cart'
 
 import Notfound from './Components/Notfound';
@@ -22,7 +22,8 @@ function Asrouter(){
                     <Route path="Products" element={<Products/>}>
                         <Route path="/" element={<Productindex/>}/>                    
                         <Route path="/:id" element={<Productdetail/>}/>
-                    </Route>   
+                    </Route> 
+                    <Route path="/checkout" element={<Checkout/>}/>  
                     <Route path="*" element={<Notfound/>}/> 
                 </Routes>
             </Router>

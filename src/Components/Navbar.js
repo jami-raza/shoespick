@@ -59,8 +59,8 @@ export default function Navbar() {
           <ShoppingCartIcon/>
           </Link>
           </div>
-          <div >
-          Login<span style={{marginTop:'20px'}}><LockOpenIcon /></span>
+          <div>
+          <Link to="/checkout"/>Login<span style={{marginTop:'20px'}}><LockOpenIcon /></span>
           </div>
         </div>
         </div>
