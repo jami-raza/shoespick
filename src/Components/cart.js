@@ -89,26 +89,28 @@ const Cart = () => {
         };
 
         return (
-          <Grid>
+          <Grid container direction="row" justify="space-around">
             <List>
+              
               <ListItem>
+              <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
                 <ListItemAvatar>
                   <Avatar alt={shoe.name} src={shoe.img} />
                 </ListItemAvatar>
+              </Grid>
+                <Grid item xs={12} sm={12} md={8} lg={8} xl={8}>
                 <ListItemText>
                   <h3>{shoe.name}</h3>
                 </ListItemText>
+              </Grid>
+          <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
                 <ListItemText>
-                  <input
-                    type="number"
-                    
-                  />
                   <FormControl
                     variant="outlined"
                     className={classes.formControl}
                   >
                     <InputLabel id="demo-simple-select-outlined-label">
-                      Age
+                      Qty
                     </InputLabel>
                     <Select
                       labelId="demo-simple-select-outlined-label"
@@ -136,13 +138,19 @@ const Cart = () => {
                     </Select>
                   </FormControl>
                 </ListItemText>
+                </Grid>
+ <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
                 <ListItemText>
                   <IconButton onClick={RemoveItem}>
                     <DeleteIcon />
                   </IconButton>
                 </ListItemText>
+                </Grid>
+                <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
                 <ListItemText>{shoe.price * quantity}</ListItemText>
+                </Grid>
               </ListItem>
+              
             </List>
           </Grid>
         );

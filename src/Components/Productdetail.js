@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   
   img:{
       height:400,
-      
+      width:'100%',
       boxShadow:'0 0 10px #463636',
   },
   paper1:{
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
 
   },
   price: {
-    marginTop:'50px'
+    
 
   },
   desc:{
@@ -87,7 +87,7 @@ export default function SpacingGrid() {
     <div >
           {[0].map(value => (
 
-            <Grid key={shoe.id} container className={classes.root}>
+            <Grid key={shoe.id} container className={classes.root} direction="row"  justify="space-between">
             
             <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
             <div className={classes.paper}>
@@ -98,10 +98,10 @@ export default function SpacingGrid() {
             </Grid>
             
           
-          <Grid item xs={12} sm={12} md={4} lg={4} xl={4} className={classes.desc}>
-              <Paper elevation={0} className={classes.paper1}>
-            <p>{shoe.desc}</p>
-            </Paper>
+          <Grid item xs={12} sm={12} md={4} lg={4} xl={4} style={{padding:'270px 0 0 50px'}}>
+              
+            <p style={{width:'100%'}}>{shoe.desc}</p>
+            
             </Grid>
             <Grid item xs={12} sm={12} md={4} lg={4} xl={4} className={classes.price}>
               <List style={{border:'1px solid grey',maxWidth:'300px'}}>
